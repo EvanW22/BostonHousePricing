@@ -35,4 +35,4 @@ if st.button('Predict'):
     prediction = regmodel.predict(scaled_data)[0]
     
     #display the predicted house price
-    st.write(f"The predicted house price is: ${prediction:,.2f}")
+    st.write(f"The predicted house price is: {prediction:,.2f} (in $1000's)")
